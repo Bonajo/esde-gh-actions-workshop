@@ -8,6 +8,6 @@ jobs:
       - name: Greet the world!
         run: date
       - name: Custom step
-	run: echo "Custom step"
+	      run: echo "Custom step"
       - name: Printing job status
         run: echo "🍏 This job's status is ${{ job.status }}."
