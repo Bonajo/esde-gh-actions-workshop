@@ -7,6 +7,7 @@ jobs:
     steps:
       - name: Greet the world!
         run: date
-      # ADD SOME CUSTOM UNIQUE CODE HERE!!!!
+      - name: Custom step
+	run: echo "Custom step"
       - name: Printing job status
         run: echo "🍏 This job's status is ${{ job.status }}."
